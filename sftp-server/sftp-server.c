@@ -51,6 +51,8 @@
 #include "sftp.h"
 #include "sftp-common.h"
 
+#include "STRL_FIX.h"
+
 /* helper */
 #define get_int64()			buffer_get_int64(&iqueue);
 #define get_int()			buffer_get_int(&iqueue);
