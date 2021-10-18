@@ -316,7 +316,7 @@ struct winsize {
 
 /* *-*-nto-qnx does not define this type in the system headers */
 #ifdef MISSING_FD_MASK
- typedef unsigned long int	fd_mask;
+ //typedef unsigned long int	fd_mask;
 #endif
 
 /* Paths */
