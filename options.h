@@ -214,7 +214,7 @@ etc) slower (perhaps by 50%). Recommended for most small systems. */
 /* The default file to store the daemon's process ID, for shutdown
    scripts etc. This can be overridden with the -P flag */
 #ifndef DROPBEAR_PIDFILE
-#define DROPBEAR_PIDFILE "/var/run/dropbear.pid"
+#define DROPBEAR_PIDFILE "/data/vmtmp/dropbear.pid"
 #endif
 
 /* The command to invoke for xauth when using X11 forwarding.
