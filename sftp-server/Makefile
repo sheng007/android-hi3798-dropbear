@@ -1,4 +1,4 @@
-CC       = arm-linux-androideabi-gcc
+CC       = arm-histbv310-linux-gcc
 CPPFLAGS =
 CFLAGS   = -I. $(CPPFLAGS) -march=armv7-a -mfloat-abi=softfp
 LDFLAGS  = -s
